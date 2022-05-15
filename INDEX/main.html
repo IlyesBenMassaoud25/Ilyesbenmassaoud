@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="icon" href="images/logo.svg" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Frontendmentor | Calculator APP</title>
+  <link rel="stylesheet" href="style/styles.css">
+  <a name='calculator'></a>
+</head>
+<body class="bodyt bodyt2 bodyt3">
+  <header class="header">
+    <i class="fas fa-atom"></i>
+       <div class='headers'>
+     <div class="Ilyes">
+        <i class="fas fa-strikethrough"></i>
+           <h1>Ilyes</h1>
+        </div>  
+       <ul class="header1">
+           <li> <a href="../calculator-app/main.html">home</a> </li>
+           <li> <a href="../calculator-app/calculator.html">calculator</a> </li>
+           <li> <a href="../calculator-app/feedback.html">feedback</a> </li>
+               </ul>
+    </div>
+   </header>
+  <main class="main">
+  <div class="container">
+    <div class="column">
+      <div class="row-one">
+        <div class="flex-between">
+          <h1 class="color1 color2 color3">calc</h1>
+          <div class="theme">
+            <h4 class="color1 color2 color3" style="margin: 0;">THEME</h4>
+            <div class="numbers">
+              <div class="numbers-class color1 color2 color3">
+                <div class="number1">1</div>
+                <div class="number2">2</div>
+                <div class="number3">3</div>
+              </div>
+              <div class="circle-class circle-classt2 circle-classt3">
+                <div class="ctr1 circle2"></div>
+                <div class="ctr2 circle circle1"></div>
+                <div class="ctr3 circle3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-two">
+        <div class="affichage affichaget2 affichaget3">
+          <p>0</p>
+        </div>
+      </div>
+      <div class="row-three row-threet2 row-threet3">
+        <div class="content">
+          <div class="row">
+            <div class="col-3 col-3t1 col-3t2 col-3t3 first">7</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">8</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">9</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3 del delt2 delt3">DEL</div>
+          </div>
+          <div class="row">
+            <div class="col-3 col-3t1 col-3t2 col-3t3 first">4</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">5</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">6</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">+</div>
+          </div>
+          <div class="row">
+            <div class="col-3 col-3t1 col-3t2 col-3t3 first">1</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">2</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">3</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">-</div>
+          </div>
+          <div class="row">
+            <div class="col-3 col-3t1 col-3t2 col-3t3 first">.</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">0</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">/</div>
+            <div class="col-3 col-3t1 col-3t2 col-3t3">*</div>
+          </div>
+          <div class="flex-between gap">
+            <div class="col-6 col-6t2 col-6t3 center del delt2 delt3 res">RESET</div>
+            <div class="col-6 col-6t2 col-6t3 center equal">=</div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+  <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+  </script></main>
+  <script src="java script/main.js"></script>
+</body>
+</html>
